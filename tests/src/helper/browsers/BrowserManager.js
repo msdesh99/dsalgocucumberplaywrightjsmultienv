@@ -13,7 +13,8 @@ const options = LaunchOption = {
                     video: "true"*/
                 }    
 exports.invokeBrowser = () => {
-      const browserType = process.env.Browser
+      //const browserType = process.env.Browser
+      const browserType = 'chrome'
    if(browserType == 'chrome'){
         return chromium.launch(options)
         console.log("browtype: "+ browserType);

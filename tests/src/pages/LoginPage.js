@@ -10,8 +10,8 @@ exports.LoginPage = class LoginPage{
  
     async launchUrl(){
         //console.log("in ste: "+ process.env.BASEURL);
-        //await pageFixture.page.goto('https://dsportalapp.herokuapp.com')
-        await pageFixture.page.goto(process.env.BASEURL)
+        await pageFixture.page.goto('https://dsportalapp.herokuapp.com')
+       // await pageFixture.page.goto(process.env.BASEURL)
         await pageFixture.page.getByRole('button',{name:"Get Started"}).click()
         
     }
