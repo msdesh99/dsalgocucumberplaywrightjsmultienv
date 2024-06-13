@@ -1,6 +1,6 @@
 {
     "endtoend" :  {
-        "tags" : "@endtoend",
+        "tags" : "@pythoncode or @endtoend",
         "formatOptions" :{
             "snippetInterface" : "async-await"
         },

@@ -12,7 +12,7 @@
     "testwebkit:failed": "cross-env NODE_ENV=test-webkit cucumber-js -p rerunendtoend @rerunendtoend.txt",
     "ddloginexcel": "cucumber-js -p ddloginexcel test",
     "ddloginexcel:failed": "cucumber-js -p rerunddloginexcel @rerunddloginexcel.txt",
-    "ddloginjson": "cross-env NODE_ENV=test-chrome cucumber-js -p ddloginjson test",
+    "test": "cross-env NODE_ENV=test-chrome cucumber-js -p ddloginjson test",
     "ddloginjson:failed": "cross-env NODE_ENV=test-chrome cucumber-js -p rerunddloginjson @rerunddloginjson.txt",
     "ddlogincsv": "cucumber-js -p ddlogincsv test",
     "ddlogincsv:failed": "cucumber-js -p rerunddlogincsv @rerunddlogincsv.txt"
