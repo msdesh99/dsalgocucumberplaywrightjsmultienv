@@ -1,0 +1,5 @@
+﻿username,password,Scenario,Type
+NinaAlgo,Algo123,Login,Negative
+Negative,des123,Login,Positive
+NinjaAlgo,usernamecorrect,Login,Negative
+LastUser,2res@,Login,Negative

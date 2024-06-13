@@ -1,0 +1,36 @@
+{
+  "name": "dsalgocucumberplaywrightjsmultienv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testchrome": "cross-env NODE_ENV=test-chrome cucumber-js -p endtoend test",
+    "testchrome:failed": "cross-env NODE-ENV=test-chrome cucumber-js -p rerunendtoend @rerunendtoend.txt",
+    "testfirefox": "cross-env NODE_ENV=test-firefox cucumber-js -p endtoend test",
+    "testfirefox:failed": "cross-env NODE_ENV=test-firefox cucumber-js -p endtoend test",
+    "testwebkit": "cross-env NODE_ENV=test-webkit cucumber-js -p endtoend test",
+    "testwebkit:failed": "cross-env NODE_ENV=test-webkit cucumber-js -p rerunendtoend @rerunendtoend.txt",
+    "ddloginexcel": "cucumber-js -p ddloginexcel test",
+    "ddloginexcel:failed": "cucumber-js -p rerunddloginexcel @rerunddloginexcel.txt",
+    "ddloginjson": "cross-env NODE_ENV=test-chrome cucumber-js -p ddloginjson test",
+    "ddloginjson:failed": "cross-env NODE_ENV=test-chrome cucumber-js -p rerunddloginjson @rerunddloginjson.txt",
+    "ddlogincsv": "cucumber-js -p ddlogincsv test",
+    "ddlogincsv:failed": "cucumber-js -p rerunddlogincsv @rerunddlogincsv.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "cross-env": "^7.0.3",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "winston": "^3.13.0",
+    "xlsx": "^0.18.5"
+  }
+}

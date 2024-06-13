@@ -1,0 +1,14 @@
+[ {
+    "code" :"\noutput = 'number is not found'\n\tfor x in input_list:\n\t\tif x==num:\n\t\t\toutput = 'Number is found'\n\tprint(str(num)+' '+output)\ninput_list=[12,13,345,665]\nnum=12\nsearch(input_list,num)"
+    
+},
+{
+    "code" :"\n\toutput = 'number is not found'\n\tfor x in input_list:\n\t\tif x==num:\n\t\t\toutput = 'Number is found'\n\tprint(str(num)+' '+output)\ninput_list=[12,13,345,665]\nnum=12\nsearch(input_list,num)"
+    
+},
+
+{
+    "code" :"\n\toutput = 'number is not found'\n\tfor x in input_list:\n\t\tif x==num:\n\t\t\toutput = 'Number is found'\n\tprint(str(num)+' '+output)\ninput_list=[12,13,345,665]\nnum=121\nsearch(input_list,num)"
+    
+}]
+

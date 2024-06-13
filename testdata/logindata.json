@@ -1,0 +1,22 @@
+[{
+    "username" :"NinjaAlgo1",
+    "password" : "@Algo123",
+    "status" : "passed"
+},
+{
+    "username" : "negative",
+    "password" : "pass",
+    "status" : "failed"
+},
+{
+    "username" : "NinjaAlgo",
+    "password" :"wrong",
+    "status" : "failed"
+},
+{
+    "username" : "wrong",
+    "password" : "@Algo123",
+    "status" :"failed"
+}
+
+]

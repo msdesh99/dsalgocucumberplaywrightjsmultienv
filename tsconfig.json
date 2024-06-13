@@ -1,0 +1,14 @@
+{
+    "complierOptions" : {
+        "typeRoots" : [
+            "./node_modules/@types",
+            "tests/src/helper/types"
+
+        ]
+
+
+    }
+
+
+
+}
