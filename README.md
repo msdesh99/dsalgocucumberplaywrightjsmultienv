@@ -55,3 +55,5 @@ By combining these two tools, we can create more reliable and maintainable tests
 - **config/cucumber.js -> One file to do all the magic**
 - **package.json -> Contains all the dependencies**
 - **src\helper\util -> Read test data from json, Excel,csv & logger**
+## Dependencies
+![image](https://github.com/msdesh99/dsalgocucumberplaywrightjsmultienv/assets/131903278/be8d1272-a3c6-450b-bd11-0dfa79fb36ab)
