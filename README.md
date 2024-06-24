@@ -12,7 +12,7 @@ In automation of mobile applications, JavaScript tools support both Android and 
 By combining these two tools, we can create more reliable and maintainable tests.
 
 ## Features
-- **Awesome report with screenshots, videos & logs**
+- **Awesome report with screenshots, videos & Winston logs**
 - **Execute tests on multiple environments**
 - **Parallel execution**
 - **ScreenShot and Video recording for failed features**
