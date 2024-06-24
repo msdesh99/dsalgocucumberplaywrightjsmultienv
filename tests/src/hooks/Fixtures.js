@@ -1,10 +1,11 @@
-exports.pageFixture = pageFixture = {
+exports.fixtures = fixtures = {
     
     page : undefined,
     loginPage : undefined,
     linkedListPage : undefined,
     logger: undefined,
     recordcount :0,
+    
     topic:undefined
 
     /* About topic value: 

@@ -1,4 +1,4 @@
-const { pageFixture  } = require("../hooks/PageFixture")
+const { fixtures  } = require("../hooks/Fixtures")
 
 exports.LinkedListPage = class LinkedListPage{
 
@@ -7,7 +7,7 @@ exports.LinkedListPage = class LinkedListPage{
    }
   
    async introductionTopic(topic) {
-      this.introductionAnchor = await pageFixture.page.getByRole('link',{name: topic})
+      this.introductionAnchor = await fixtures.page.getByRole('link',{name: topic})
       await this.introductionAnchor.click()
    }
 

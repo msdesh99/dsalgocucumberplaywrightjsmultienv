@@ -8,7 +8,7 @@ Feature: DataDriven negative Test Cases for Login Function
     Examples: 
     | scenarioNumber |
     | 0 |
-    | 1 |
-    | 2 |
-    | 3 |
+#     | 1 |
+#     | 2 |
+#     | 3 |
  

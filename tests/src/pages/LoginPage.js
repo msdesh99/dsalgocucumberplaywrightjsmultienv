@@ -1,18 +1,18 @@
-const { pageFixture } = require("../hooks/PageFixture")
+const { fixtures } = require("../hooks/Fixtures")
 
 exports.LoginPage = class LoginPage{
     constructor(){
-         this.signInLink = pageFixture.page.getByRole('link',{name: 'Sign in'})
-         this.usernameInput = pageFixture.page.locator("//input[@name='username']")
-         this.passwordInput = pageFixture.page.locator("//input[@name='password']")
-         this.submitButton = pageFixture.page.locator("//input[@type='submit']")
+         this.signInLink = fixtures.page.getByRole('link',{name: 'Sign in'})
+         this.usernameInput = fixtures.page.locator("//input[@name='username']")
+         this.passwordInput = fixtures.page.locator("//input[@name='password']")
+         this.submitButton = fixtures.page.locator("//input[@type='submit']")
     }
  
     async launchUrl(){
         //console.log("in ste: "+ process.env.BASEURL);
-        await pageFixture.page.goto('https://dsportalapp.herokuapp.com')
-       // await pageFixture.page.goto(process.env.BASEURL)
-        await pageFixture.page.getByRole('button',{name:"Get Started"}).click()
+        //await fixtures.page.goto('https://dsportalapp.herokuapp.com')
+        await fixtures.page.goto(process.env.BASEURL)
+        await fixtures.page.getByRole('button',{name:"Get Started"}).click()
         
     }
     async login(username, password){

@@ -1,6 +1,6 @@
 const { parse} = require('csv-parse/sync')
 const path = require('path')
-const { pageFixture } = require('../hooks/PageFixture')
+const { fixtures } = require('../../hooks/Fixtures')
 const  fs  = require ('fs')  
  
 exports.CSVReader = class CSVReader {
@@ -11,6 +11,6 @@ exports.CSVReader = class CSVReader {
          const csvData = fs.readFileSync(csvFilePath,'utf8')
          const loginDataArr = parse(csvData,{from_line : 1})
        
-         pageFixture.loginDataArr = loginDataArr
+         fixtures.loginDataArr = loginDataArr
     }
 }

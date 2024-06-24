@@ -1,9 +1,8 @@
 {
-    "complierOptions" : {
+    "compilerOptions" : {
         "typeRoots" : [
             "./node_modules/@types",
-            "tests/src/helper/types"
-
+            "tests/src/helper/@types/env.d.ts"
         ]
 
 
