@@ -15,7 +15,7 @@ By combining these two tools, we can create more reliable and maintainable tests
 - **Awesome report with screenshots, videos & Winston logs**
 - **Execute tests on multiple environments**
 - **Parallel execution**
-- **ScreenShot and Video recording for failed features**
+- **ScreenShot and Video recording for failed features** -- [Code Link](tests/src/hooks/Hooks.js)
 - **Trace viewer is available for every feature**
 - **Rerun only failed features**
 - **Retry failed tests on CI**
